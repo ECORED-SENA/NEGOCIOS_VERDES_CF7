@@ -158,29 +158,52 @@
       .py-3.py-md-4(titulo="Producto verde").p-4
         h4 Producto verde
         p.mb-4 Se dice que el producto cumple con parámetros ecológicos si:
-        ol.lista-ol
-          li 
-            span.text-bold 1. 
-            | Cumple la misma función de un producto convencional causando un menor impacto negativo en todo el ciclo de vida del producto.
-          li 
-            span.text-bold 2. 
-            | Se relaciona con procesos productivos de la empresa que permiten la obtención del producto final, los cuales deben regirse por prácticas ambientalmente responsables que ocasionen impactos mínimos sobre los recursos naturales.
-          li 
-            span.text-bold 3. 
-            | Es importante considerar el envase, empaque o embalaje, el cual debe ser en lo posible reutilizable o, de otra manera, biodegradable.
-      
+        .row.mb-5
+          .col-md-6.col-lg.tarjeta--tabla.p-4
+            .row.mb-3
+              .col-2
+                img(src='@/assets/curso/tema1/img16.svg')
+            h2 01
+            p Cumple la misma función de un producto convencional causando un menor impacto negativo en todo el ciclo de vida del producto.
+
+          .col-md-6.col-lg.tarjeta--tabla.p-4
+            .row.mb-3
+              .col-2
+                img(src='@/assets/curso/tema1/img17.svg')
+            h2 02
+            p Se relaciona con procesos productivos de la empresa que permiten la obtención del producto final, los cuales deben regirse por prácticas ambientalmente responsables que ocasionen impactos mínimos sobre los recursos naturales.
+
+          .col-md-6.col-lg.tarjeta--tabla.p-4
+            .row.mb-3
+              .col-2
+                img(src='@/assets/curso/tema1/img18.svg')
+            h2 03
+            p Es importante considerar el envase, empaque o embalaje, el cual debe ser en lo posible reutilizable o, de otra manera, biodegradable.
+
       .py-3.py-md-4(titulo="Precio verde").p-4
-        h4 Precio verde
-        p.mb-4 Con respecto al precio para los productos verdes, o responsables ambientalmente, es importante destacar que, en general, estos suelen ser más costosos que los productos convencionales. 
-        p.mb-4 Esta diferencia puede ser vista como una desventaja frente a los productos con menor precio; sin embargo, puede ser un criterio determinante sobre aquellos segmentos de mercado que valoran la exclusividad de estos productos, los cuales no se encasillan dentro de los procesos productivos tradicionales y estarían dispuestos a pagar un poco más si consideran que, personalmente, están apoyando la causa de defender el medio ambiente. Hay expectativa a futuro respecto a que se puedan disminuir los costos de producción asociados a los productos verdes; esto con el fin de que el alto precio de estos productos no desmotive a los clientes o desincentive a comprarlos. 
+        .row
+          .col-2
+            img(src='@/assets/curso/tema1/img15.svg')
+          .col-10
+            h4 Precio verde
+            p.mb-4 Con respecto al precio para los productos verdes, o responsables ambientalmente, es importante destacar que, en general, estos suelen ser más costosos que los productos convencionales. 
+            p.mb-4 Esta diferencia puede ser vista como una desventaja frente a los productos con menor precio; sin embargo, puede ser un criterio determinante sobre aquellos segmentos de mercado que valoran la exclusividad de estos productos, los cuales no se encasillan dentro de los procesos productivos tradicionales y estarían dispuestos a pagar un poco más si consideran que, personalmente, están apoyando la causa de defender el medio ambiente. Hay expectativa a futuro respecto a que se puedan disminuir los costos de producción asociados a los productos verdes; esto con el fin de que el alto precio de estos productos no desmotive a los clientes o desincentive a comprarlos. 
 
       .py-3.py-md-4(titulo="Plaza (distribución)").p-4
-        h4 Plaza (distribución)
-        p La distribución de un producto se relaciona con poner a disposición del consumidor los bienes que requiere, en el sitio y momento oportunos, en la cantidad apropiada, a un precio admisible para la empresa que lo produce y que sea atractivo para el consumidor. En el mercadeo verde, se requiere que la implementación de estrategia de plaza impacte de la menor forma posible el medio ambiente, generando menos residuos durante los procesos de almacenamiento, transporte y manipulación del producto.
+        .row
+          .col-2
+            img(src='@/assets/curso/tema1/img19.svg')
+          .col-10
+            h4 Plaza (distribución)
+            p La distribución de un producto se relaciona con poner a disposición del consumidor los bienes que requiere, en el sitio y momento oportunos, en la cantidad apropiada, a un precio admisible para la empresa que lo produce y que sea atractivo para el consumidor. En el mercadeo verde, se requiere que la implementación de estrategia de plaza impacte de la menor forma posible el medio ambiente, generando menos residuos durante los procesos de almacenamiento, transporte y manipulación del producto.
       
       .py-3.py-md-4(titulo="Promoción (comunicación)").p-4
-        h4 Promoción (comunicación)
-        p Un aspecto clave dentro del mercadeo verde se encuentra dentro de las tácticas de promoción de los productos verdes, pues deben estar orientadas a transmitir los beneficios ofrecidos por estos productos y, al mismo tiempo, a conocer la imagen de una empresa comprometida con los temas ambientales. Una estrategia que resulta relevante al momento de validar el compromiso ambiental de las empresas son las llamadas "etiquetas ecológicas".
+        .row
+          .col-2
+            img(src='@/assets/curso/tema1/img20.svg')
+          .col-10 
+            h4 Promoción (comunicación)
+            p Un aspecto clave dentro del mercadeo verde se encuentra dentro de las tácticas de promoción de los productos verdes, pues deben estar orientadas a transmitir los beneficios ofrecidos por estos productos y, al mismo tiempo, a conocer la imagen de una empresa comprometida con los temas ambientales. Una estrategia que resulta relevante al momento de validar el compromiso ambiental de las empresas son las llamadas "etiquetas ecológicas".
       
     separador
     #t_1_3.titulo-segundo
@@ -307,7 +330,19 @@
 
     .row.justify-content-center.mb-4
       .col-lg-6
-        img(src='@/assets/curso/tema1/img12.png')
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema1/img12.png')
+          .tarjeta.color-gray.p-3(x="34%" y="33%")
+            .h5.mb-2 Aprender
+            p Se trata de aprender si el negocio es viable, seguir persistiendo, o, de lo contrario, reacomodar principalmente las ideas que no están funcionando. A esta reacomodación de ideas se le llama “pivotar”.
+          .tarjeta.color-gray.p-3(x="61%" y="50%")
+            .h5.mb-2 Construir
+            p Se trata de crear un PMV cuya versión funcione mínimamente.
+          .tarjeta.color-gray.p-3(x="34%" y="70%")
+            .h5.mb-2 Medir
+            p Se trata de medir la respuesta de los consumidores al PMV y, con los datos de la medición, se deben tomar las mejores decisiones.
     
     p.mb-4 Una manera de utilizar el método Lean Startup es realizando las preguntas adecuadas, tal y como se presenta en el siguiente ejemplo:
 
