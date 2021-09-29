@@ -316,7 +316,7 @@
         .col-lg-2
           br
           a.boton.me-3.indicador__container.color-acento-contenido(
-            :href="obtenerLink('/downloads/prueba.pdf')"
+            :href="obtenerLink('/downloads/PMV.pdf')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -414,7 +414,47 @@
 
     .row.justify-content-center.mb-4
       .col-lg-7
-        img(src='@/assets/curso/tema1/img14.png')
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema1/img14.png')
+          .tarjeta.color-gray.p-3(x="58%" y="39%")
+            .h5.mb-2 Paso No. 1: Definir la categoría
+            p Este paso, haría parte de la planeación del trabajo. Aquí, se identifican las categorías de productos que se deben trabajar, según las necesidades que tengan los consumidores. El category manager debe definir la categoría en función de cómo actúa el comprador.
+          .tarjeta.color-gray.p-3(x="64%" y="48%")
+            .h5.mb-2 Paso No. 2: Definir el rol/papel de la categoría
+            p En este paso, se define la importancia que tiene la categoría para el negocio del retailer, o minorista, es decir, en la tienda (para obtener el incremento de las ventas), para el cliente (ajustar la categoría de acuerdo con el perfil del cliente) y para el mercado (los proveedores). Existen 4 roles principales de categoría:
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check-circle
+                | Rutina o habituales 
+              li 
+                i.fas.fa-check-circle
+                | Destino
+              li 
+                i.fas.fa-check-circle
+                | Conveniencia  
+              li 
+                i.fas.fa-check-circle
+                | Ocasionales  
+          .tarjeta.color-gray.p-3(x="63%" y="57%")
+            .h5.mb-2 Paso No. 3: Evaluar la categoría: ¿Cómo se evaluará lo que se realice?
+            p Este paso consiste en obtener información relevante y precisa, para ser analizada y determinar oportunidades de progreso para cada categoría. Lo anterior se puede realizar mediante análisis de datos de minoristas, con el objetivo de identificar oportunidades para incrementar ventas. Los datos que serán objeto de análisis en este paso son los datos provenientes del shopper, o comprador, de la cadena minorista, del mercado y de los proveedores.
+          .tarjeta.color-gray.p-3(x="57%" y="64%")
+            .h5.mb-2 Paso No. 4: Establecer objetivos y metas
+            p También se le conoce a este paso como “tarjeta de metas de la categoría” o scored card. En este paso, se establecen los objetivos, los cuales deben ser alcanzables y medibles (cualitativos y cuantitativos), para rastrear las ventas, los volúmenes de las ventas, las participaciones del producto y las variedades del mismo.
+          .tarjeta.color-gray.p-3(x="47%" y="64%")
+            .h5.mb-2 Paso No. 5: Idear estrategias
+            p En este paso, se crean las estrategias de marketing (tradicional o verde) de la categoría que cumplan con sus objetivos, así como las estrategias de suministro de los productos. No solo el category manager debe establecer las estrategias de la categoría, también lo deben hacer sus proveedores y el minorista, para determinar que toda la categoría funcione.
+          .tarjeta.color-gray.p-3(x="39%" y="57%")
+            .h5.mb-2 Paso No. 6: Establecer las tácticas de la categoría
+            p Estas tácticas son los instrumentos que se utilizan para ejecutar las estrategias de las categorías establecidas en el paso anterior. Estas tácticas permiten cumplir las estrategias de categoría, e incluyen: tácticas de precios, de promociones que más le favorezcan a fabricantes, retailers y shoppers (es decir, que irá en anaquel) y variedad de productos.
+          .tarjeta.color-gray.p-3(x="39%" y="47%")
+            .h5.mb-2 Paso No. 7: Implementación del plan
+            p Este paso se encuentra en el ciclo del hacer. Aquí, se ejecuta el plan que ya se ha desarrollado en los pasos del 1 al 6. También, se diseña un cronograma y se definen y distribuyen las responsabilidades.
+          .tarjeta.color-gray.p-3(x="47%" y="39%")
+            .h5.mb-2 Paso No. 8: Revisión de la categoría
+            p En este paso, se revisa periódicamente lo planeado y ejecutado, y se aplica una mejora continua para alcanzar mejores resultados por categoría (es decir, el actuar). Se revisa periódicamente la exhibición y acomodo de los productos disponibles en anaquel, apoyándose en fotografías y recolección de datos que permitan obtener reportes con resultados claros, y realizar cambios, si aplica.
     
     separador
     #t_1_8.titulo-segundo
