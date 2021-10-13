@@ -6,7 +6,7 @@
     .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 ¿Qué es mercadeo verde (Green Marketing)?
+      h1 ¿Qué es mercadeo verde (#[i Green Marketing])?
     
     .row.mb-4
       .col-lg-5
@@ -14,14 +14,24 @@
       .col-lg-7
         p Se define como todas las actividades cuyo objetivo principal es generar y proporcionar cambios dirigidos a satisfacer las necesidades de las personas, con la menor huella negativa posible hacia el medio ambiente. Este concepto presenta mucha similitud con la definición de mercadeo tradicional, con la diferencia en causar el menor impacto ambiental negativo.
     
-    p.mb-4 Teniendo en cuenta las afirmaciones anteriores,  Castellano et al. (2015) concluyen que el mercadeo verde o Green Marketing es el “proceso asumido por las empresas, que incorpora acciones para la obtención de un producto o servicio de forma amigable, disminuyendo o eliminando los daños que pueda ocasionar dicho proceso al medio ambiente”, considerando las etapas del ciclo de vida de un bien o servicio, es decir, desde la selección y extracción de la materia prima, hasta la reutilización o reciclaje del producto para su disposición final. 
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        p Teniendo en cuenta las afirmaciones anteriores,  Castellano et al. (2015) concluyen que el #[strong mercadeo verde] o #[i.text-bold Green Marketing] es el 
+        .bloque-texto-b.color-acento-botones.p-2
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            strong proceso asumido por las empresas, que incorpora acciones para la obtención de un producto o servicio de forma amigable, disminuyendo o eliminando los daños que pueda ocasionar dicho proceso al medio ambiente
+            i.fas.fa-quote-right
+        p.mb-4 Considerando las etapas del ciclo de vida de un bien o servicio, es decir, desde la selección y extracción de la materia prima, hasta la reutilización o reciclaje del producto para su disposición final.
+
+    
 
     separador
     #t_1_1.titulo-segundo
     #t_1_1.titulo-segundo
       h2 1.1	Ventajas y desventajas del mercadeo verde
     
-    p.mb-4 Crear un negocio verde no es una labor fácil, porque, adicionalmente a las estrategias de green marketing que se deben aplicar, todo el desarrollo y operación del negocio debe estar enfocado a la protección del medio ambiente.
+    p.mb-4 Crear un negocio verde no es una labor fácil, porque, adicionalmente a las estrategias de #[i green marketing] que se deben aplicar, todo el desarrollo y operación del negocio debe estar enfocado a la protección del medio ambiente.
 
     .row.mb-4
       .col-lg-6.d-flex
@@ -97,25 +107,25 @@
           img(src='@/assets/curso/tema1/img05.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido-25.p-4
             br
-            h3.text-center Precio
+            p.text-center #[strong Precio]
       .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido-40.p-4
             br
-            h3.text-center Producto
+            p.text-center #[strong Producto]
       .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido-25.p-4
             br
-            h3.text-center Plaza (lugar o distribución)
+            p.text-center #[strong Plaza] (lugar o distribución)
       .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido-40.p-4
             br
-            h3.text-center Promoción (comunicación)
+            p.text-center #[strong Promoción] (comunicación)
     
     p.mb-4 Las cuales se adaptan según el perfil y las preferencias de las empresas.
     .row.justify-content-center.mb-4
@@ -209,7 +219,7 @@
     #t_1_3.titulo-segundo
       h2 1.3	Ejemplos de mercadeo verde en el mundo
     
-    p.mb-4 En el siguiente video, se presentan algunos ejemplos de empresas a nivel mundial relacionadas con las acciones de mezcla de mercadeo aplicadas en el marketing sostenible. ¡Adelante!
+    p.mb-4 En el siguiente video, se presentan algunos ejemplos de empresas a nivel mundial relacionadas con las acciones de mezcla de mercadeo aplicadas en el #[i marketing] sostenible. ¡Adelante!
 
     figure.mb-4
       .video
@@ -220,7 +230,7 @@
     #t_1_1.titulo-segundo
       h2 1.4	Factores de éxito del mercadeo verde
     
-    p.mb-4 Existen cinco (5) puntos claves del mercadeo verde para tener en cuenta, los cuales permiten desarrollar habilidades eficaces de marketing verde y se convierten en una guía para evitar caer en el greenwashing y cometer errores. Los cinco puntos clave se describen a continuación:
+    p.mb-4 Existen cinco (5) puntos claves del mercadeo verde para tener en cuenta, los cuales permiten desarrollar habilidades eficaces de #[i marketing] verde y se convierten en una guía para evitar caer en el #[i greenwashing] y cometer errores. Los cinco puntos clave se describen a continuación:
     
     .titulo-sexto.color-acento-contenido
       h5 Tabla 2
@@ -246,7 +256,7 @@
           td La elección positiva no es una obligación. Un producto considerado verde es, en parte, un desafío de diseño. Un producto verde es a menudo mejor, más eficiente, durable, saludable, accesible, y así sucesivamente. Por lo tanto, las organizaciones deben lidiar con la cultura y los nuevos estilos de vida.
         tr
           th Informativo
-          td La falta de información afecta el comportamiento de las personas. Las bases para el desarrollo del marketing verde residen en la educación y la participación.
+          td La falta de información afecta el comportamiento de las personas. Las bases para el desarrollo del #[i marketing] verde residen en la educación y la participación.
 
     separador
     #t_1_5.titulo-segundo
@@ -261,7 +271,7 @@
             .col-2
               img(src='@/assets/curso/tema1/img10.svg')
             .col-10
-              p El PMV no es un prototipo, un prototipo es representar de forma visual el producto que se desea lanzar, mientras que un PMV es un producto que tiene las funciones mínimas para ser lanzado al mercado, buscando la interacción y opinión de los early adopters, o primeros clientes, para aprender de su feedback.
+              p El PMV no es un prototipo, un prototipo es representar de forma visual el producto que se desea lanzar, mientras que un PMV es un producto que tiene las funciones mínimas para ser lanzado al mercado, buscando la interacción y opinión de los #[i early adopters], o primeros clientes, para aprender de su #[i feedback].
 
     p.mb-4 Muchas veces se asocia al PMV como una versión del producto que tiene características restringidas, limitadas que se percibe como algo que es “barato” de producir. Sin embargo, en realidad, un PMV puede costar mucho dinero, dependiendo de la propuesta de valor que se quiera representar al momento de enseñar a los clientes.
     p.mb-4 Es importante que al crear un PMV se consideren cuatro (4) aspectos fundamentales para que pueda aportar valor a un cliente y que reúna las siguientes características principales:
@@ -306,12 +316,12 @@
 
     .h4.mb-4 ¿Cómo se desarrolla un PMV?
     .tarjeta.color-secundario.mb-4.p-4
-      .row.justify-content-center
-        .col-lg-1
+      .row.align-items-center
+        .col-lg-2
           img(src='@/assets/curso/tema1/img11.svg')
         .col-lg-5
           .h4.text-white ¿Cómo se desarrolla un PMV?
-          p.text-white Tomando como referencia lo indicado por el Instituto de Marketing Ágil (2016), se listan los siguientes pasos para desarrollar un PMV:
+          p.text-white Tomando como referencia lo indicado por el Instituto de #[i Marketing] Ágil (2016), se listan los siguientes pasos para desarrollar un PMV:
         .col-2
         .col-lg-2
           br
@@ -324,9 +334,9 @@
             span.text-white Descargar
             i.fas.fa-file-download
             .indicador--click(v-if="mostrarIndicador")
-    p.mb-4 Para profundizar en este concepto, se recomienda visualizar el video “¿CÓMO CREAR UN PRODUCTO MÍNIMO VIABLE PARA VALIDAR TU IDEA DE NEGOCIOS?”, el cual se encuentra en el material complementario.
-    .h4.mb-4 Metodología Lean Startup
-    p.mb-4 La metodología Lean Startup se basa en un círculo de tres (3) pasos que se deben recorrer en el menor tiempo posible y con la mínima inversión. Se comienza por crear o construir un producto, se miden los resultados, y se aprende de las ideas. Descubra más sobre esta metodología:
+    p.mb-4 Para profundizar en este concepto, se recomienda visualizar el video #[strong “¿Cómo crear un Producto Mínimo Viable para validar tu idea de negocio?”], el cual se encuentra en el material complementario.
+    .h4.mb-4 Metodología #[i Lean Startup]
+    p.mb-4 La metodología #[i Lean Startup] se basa en un círculo de tres (3) pasos que se deben recorrer en el menor tiempo posible y con la mínima inversión. Se comienza por crear o construir un producto, se miden los resultados, y se aprende de las ideas. Descubra más sobre esta metodología:
 
     .row.justify-content-center.mb-4
       .col-lg-6
@@ -344,7 +354,7 @@
             .h5.mb-2 Medir
             p Se trata de medir la respuesta de los consumidores al PMV y, con los datos de la medición, se deben tomar las mejores decisiones.
     
-    p.mb-4 Una manera de utilizar el método Lean Startup es realizando las preguntas adecuadas, tal y como se presenta en el siguiente ejemplo:
+    p.mb-4 Una manera de utilizar el método #[i Lean Startup] es realizando las preguntas adecuadas, tal y como se presenta en el siguiente ejemplo:
 
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -356,11 +366,11 @@
                   img(src='@/assets/curso/tema1/img13.svg')
               h2.mb-0 Si se quiere abrir un restaurante ofreciendo un nuevo café orgánico, ¿no se debería probar si a la gente le gusta ese tipo de café? 
             .col-lg-8
-              .bloque-texto-a__texto.p-4
-                p.mb-4 Por lo tanto, antes de arrojar una primera versión del producto al mercado, es importante realizar pruebas que validen los aspectos del modelo de negocio.
-                p La metodología Lean Startup brinda una oportunidad enorme para llevar a cabo negocios verdes innovadores, que minimicen la inseguridad o la indecisión y resten el desperdicio de recursos económicos, ambientales y el alto riesgo que suelen tener los emprendimientos.
+              .bloque-texto-a__texto.p-5
+                p.mb-4 Por lo tanto, antes de arrojar una primera versión del producto al mercado, es importante #[strong realizar pruebas] que validen los aspectos del modelo de negocio.
+                p La metodología #[i Lean Startup] brinda una oportunidad enorme para llevar a cabo negocios verdes innovadores, que minimicen la inseguridad o la indecisión y resten el desperdicio de recursos económicos, ambientales y el alto riesgo que suelen tener los emprendimientos.
 
-    p.mb-4 Para profundizar sobre el tema, se recomienda ver el video “El método Lean Startup. Una empresa tiene que nacer para cambiar el mundo actual, para traer productos o servicios innovadores que impacten positivamente a la humanidad”, que se encuentra en el material complementario.
+    p.mb-4 Para profundizar sobre el tema, se recomienda ver el video “El método #[i Lean Startup]. Una empresa tiene que nacer para cambiar el mundo actual, para traer productos o servicios innovadores que impacten positivamente a la humanidad”, que se encuentra en el material complementario.
     .h4.mb-4 Pruebas que validan un PMV.
     p.mb-4 Existen diferentes pruebas que validan los PMV, que son utilizados por emprendedores para lanzar al mercado su producto, usando, en la medida de lo posible, muy poca cantidad de recursos. Algunos de los experimentos más sonados son: “landing page” o página de destino, la conserjería, crowdfunding o el test del Mago de Oz. Todas ellas válidas, dependiendo de lo que se quiera probar. A continuación, se puede conocer cada una de ellas:
 
@@ -376,7 +386,7 @@
           | en al año 2007, los dueños de este emprendimiento se dieron cuenta que en cierto tiempo del año todos los hoteles en San Francisco - Estados Unidos, estaban con la ocupación de sus habitaciones al 100% y muchas personas resultaban sin hospedaje. La hipótesis de los emprendedores fue que algunas personas pagarían por albergarse en la casa de una persona en particular. Como resultado, crearon una página web con una lista de apartamentos, y así poder validar si alguien estaba interesado. Luego de lograr la reserva de 3 huéspedes, validaron su idea.
       .tarjeta.color-acento-botones.p-4(titulo="Video explicativo")
         h4 Video explicativo
-        p Esta prueba consiste en crear un video  de no más de 30 minutos, en el que se explique lo que hace el producto y por qué las personas deberían comprarlo, es decir, explicar su beneficio. Generalmente, la prueba se realiza en situaciones en las que resulta muy difícil explicar el producto con palabras y su desarrollo es de alto costo. Por ejemplo, un programa de software donde se requiera mostrar, a través de un video, cómo funciona, los pasos, la velocidad u otra característica tecnológica indispensable. 
+        p Esta prueba consiste en crear un video  de no más de 30 minutos, en el que se explique lo que hace el producto y por qué las personas deberían comprarlo, es decir, explicar su beneficio. Generalmente, la prueba se realiza en situaciones en las que resulta muy difícil explicar el producto con palabras y su desarrollo es de alto costo. Por ejemplo, un programa de #[i software] donde se requiera mostrar, a través de un video, cómo funciona, los pasos, la velocidad u otra característica tecnológica indispensable. 
       .tarjeta.color-acento-botones.p-4(titulo="Técnica Mago de Oz")
         h4 Técnica Mago de Oz
         p.mb-4 Esta técnica permite validar la intención de un posible cliente de comprar, sin que este cuente con la logística para recibir el servicio. Se le conoce a esta técnica 
@@ -399,7 +409,7 @@
 
     separador
     #t_1_6.titulo-segundo
-      h2 1.6	Gestor de categoría (category manager)
+      h2 1.6	Gestor de categoría (#[i category manager])
 
     p.mb-4 ¿Sabe quién es el gestor de categoría? Es hora de que lo conozca:
     figure.mb-4
@@ -445,7 +455,7 @@
             p También se le conoce a este paso como “tarjeta de metas de la categoría” o scored card. En este paso, se establecen los objetivos, los cuales deben ser alcanzables y medibles (cualitativos y cuantitativos), para rastrear las ventas, los volúmenes de las ventas, las participaciones del producto y las variedades del mismo.
           .tarjeta.color-gray.p-3(x="47%" y="64%")
             .h5.mb-2 Paso No. 5: Idear estrategias
-            p En este paso, se crean las estrategias de marketing (tradicional o verde) de la categoría que cumplan con sus objetivos, así como las estrategias de suministro de los productos. No solo el category manager debe establecer las estrategias de la categoría, también lo deben hacer sus proveedores y el minorista, para determinar que toda la categoría funcione.
+            p En este paso, se crean las estrategias de #[i marketing] (tradicional o verde) de la categoría que cumplan con sus objetivos, así como las estrategias de suministro de los productos. No solo el category manager debe establecer las estrategias de la categoría, también lo deben hacer sus proveedores y el minorista, para determinar que toda la categoría funcione.
           .tarjeta.color-gray.p-3(x="39%" y="57%")
             .h5.mb-2 Paso No. 6: Establecer las tácticas de la categoría
             p Estas tácticas son los instrumentos que se utilizan para ejecutar las estrategias de las categorías establecidas en el paso anterior. Estas tácticas permiten cumplir las estrategias de categoría, e incluyen: tácticas de precios, de promociones que más le favorezcan a fabricantes, retailers y shoppers (es decir, que irá en anaquel) y variedad de productos.
@@ -458,7 +468,7 @@
     
     separador
     #t_1_8.titulo-segundo
-      h2 1.8 Coolhunting
+      h2 1.8 #[i Coolhunting]
 
     p.mb-4 Este es un término poco conocido, pero se explica a continuación:
     figure.mb-4

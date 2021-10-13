@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Propuesta de negocio verde',
     descripcionCurso:
-      'Ante el posicionamiento de Colombia como un país proveedor de negocios verdes a nivel mundial, es muy importante continuar impulsando la oferta de bienes y servicios que generen impactos positivos al medio ambiente, para atender el mercado y motivar al consumidor en su intención de compra. En este componente, el aprendiz logrará diseñar una propuesta de negocio verde y definirá propuestas de valor para su comercialización.',
+      '<font color="#000">Ante el posicionamiento de Colombia como un país proveedor de negocios verdes a nivel mundial, es muy importante continuar impulsando la oferta de bienes y servicios que generen impactos positivos al medio ambiente, para atender el mercado y motivar al consumidor en su intención de compra. En este componente, el aprendiz logrará diseñar una propuesta de negocio verde y definirá propuestas de valor para su comercialización.</font>',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -87,7 +87,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Envases, empaques y embalajes ecológicos o biodegradables',
+            titulo: 'Envases, empaques, embalajes ecológicos y biodegradables',
             hash: 't_2_1',
           },
           {
@@ -240,46 +240,46 @@ export default {
         'conjunto de productos que los consumidores identifican como interrelacionados y/o sustituibles, que satisfacen sus necesidades y se encuentran dentro de una misma exhibición.',
     },
     {
-      termino: 'Category manager',
+      termino: '<em>Category manager</em>',
       significado:
-        'gestor de categoría o administrador de categorías de producto. Abreviatura “Catman”.',
+        'gestor de categoría o administrador de categorías de producto. Abreviatura “<em>Catman</em>”.',
     },
     {
-      termino: 'Coolhunting',
+      termino: '<em>Coolhunting</em>',
       significado:
         'disciplina reciente y muy novedosa que tiene como finalidad detectar cómo la combinación de determinados cambios en la sociedad puede llegar a significar nuevas necesidades para nuestros consumidores y que, a priori, no se detectan a través de estudios tradicionales de investigación de mercados.',
     },
     {
-      termino: 'Early adopters',
+      termino: '<em>Early adopters</em>',
       significado:
         'son aquellos primeros clientes que adoptan un producto determinado. Son los primeros clientes que van a validar su producto en el mercado y que van a recomendar el producto entre su círculo social, los cuales tienen un prestigio social y son líderes de opinión en su comunidad. La mayoría de ellos cuentan con un blog o tienen bastante actividad en las redes sociales. Son personas que se toman tiempo para criticar o para resaltar los atributos de un producto.',
     },
     {
-      termino: 'Engagement',
+      termino: '<em>Engagement</em>',
       significado:
         'nivel de compromiso que tienen los consumidores y usuarios con una marca.',
     },
     {
-      termino: 'Feedback',
+      termino: '<em>Feedback</em>',
       significado:
-        'en español, retroalimentación. Es la acción de ofrecer información a una persona sobre un resultado. Es la reacción, respuesta u opinión que nos da un interlocutor como retorno sobre un asunto determinado. En marketing, es la opinión que tienen nuestros clientes, o posibles clientes, de nuestra empresa, producto o campaña de publicidad.',
+        'en español, retroalimentación. Es la acción de ofrecer información a una persona sobre un resultado. Es la reacción, respuesta u opinión que nos da un interlocutor como retorno sobre un asunto determinado. En <em>marketing</em>, es la opinión que tienen nuestros clientes, o posibles clientes, de nuestra empresa, producto o campaña de publicidad.',
     },
     {
-      termino: 'Green Branding',
+      termino: '<em>Green Branding</em>',
       significado: 'construcción de marca verde o marca ecológica.',
     },
     {
-      termino: 'Green Marketing o marketing green',
+      termino: '<em>Green Marketing</em> o <em>marketing green</em>',
       significado:
         'el mercadeo verde se define como todas las actividades cuyo objetivo principal es generar y proporcionar cambios dirigidos a satisfacer las necesidades de las personas con la menor huella negativa posible hacia el medio ambiente. Este concepto presenta mucha similitud con la definición de mercadeo tradicional, con diferenciación en causar el menor impacto ambiental negativo al medio ambiente.',
     },
     {
-      termino: 'Greenwashing',
+      termino: '<em>Greenwashing</em>',
       significado:
-        'el término proviene del inglés green (verde) y washing (lavado). Hace referencia a las malas prácticas de algunas empresas, que presentan productos como respetuosos del ambiente, aunque no lo son. Su objetivo es limpiar su imagen y no perder clientes (o recuperarlos). Como consecuencia, inducen a errores de percepción al cliente y aprovechan el deseo genuino de construir una cultura ambiental.',
+        'el término proviene del inglés green (verde) y <em>washing</em> (lavado). Hace referencia a las malas prácticas de algunas empresas, que presentan productos como respetuosos del ambiente, aunque no lo son. Su objetivo es limpiar su imagen y no perder clientes (o recuperarlos). Como consecuencia, inducen a errores de percepción al cliente y aprovechan el deseo genuino de construir una cultura ambiental.',
     },
     {
-      termino: 'Packaging',
+      termino: '<em>Packaging</em>',
       significado: 'envase.',
     },
     {
@@ -288,7 +288,7 @@ export default {
         'Producto Mínimo Viable. Es la versión de un nuevo producto con la menor cantidad de funciones posibles, que permite al equipo de desarrollo recolectar información para validar respuestas del cliente, utilizando la menor cantidad de recursos posible (tiempo, dinero y esfuerzo).',
     },
     {
-      termino: 'Retailers',
+      termino: '<em>Retailers</em>',
       significado: 'minoristas.',
     },
     {
@@ -297,11 +297,11 @@ export default {
         'es un grupo de consumidores que tienen características homogéneas y comunes para satisfacer una necesidad.',
     },
     {
-      termino: 'Shopper',
+      termino: '<em>Shopper</em>',
       significado: 'comprador.',
     },
     {
-      termino: 'Startup',
+      termino: '<em>Startup</em>',
       significado:
         'es una organización de personas que buscan desarrollar un producto o un servicio, consolidar un modelo de negocio repetible y escalable, resolviendo un problema de forma innovadora, y que por norma general se apoyan en el uso de la tecnología.',
     },
@@ -355,6 +355,29 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Andrea del Pilar Torres Gallardo',
+        cargo: 'Experta Temática',
+        centro:
+          'Regional Norte de Santander - Centro de la Industria, Empresa y Servicios CIES.',
+      },
+      {
+        nombre: 'Paola Moya Peralta',
+        cargo: 'AseDiseñadora instruccionalsor',
+        centro:
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+      },
     ],
     desarrolloProducto: [
       {
@@ -369,25 +392,31 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Luis Gabriel Urueta Alvarez',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

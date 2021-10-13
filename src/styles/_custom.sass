@@ -57,7 +57,6 @@
   display: unset
 
 .bloque-texto-d i:last-of-type
-  margin-left: -70px
   vertical-align: top
 
 .bloque-texto-d:before
@@ -71,3 +70,20 @@
 
 .img-infografica.color-secundario .img-infografica__item__dot:after
   background-color: #FFE600
+
+.banner-principal__img
+  img
+    animation: float 6s ease-in-out infinite
+
+@keyframes float
+  0%
+    transform: translatey(0px)
+  50%
+    transform: translatey(-20px)
+  100%
+    transform: translatey(0px)
+    
+.banner-principal__img img
+  width: 75%
+  max-width: 75%
+  margin-left: auto

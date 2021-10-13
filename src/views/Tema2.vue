@@ -12,7 +12,7 @@
 
     separador
     #t_2_1.titulo-segundo
-      h2 2.1	Ventajas y desventajas del mercadeo verde
+      h2 2.1	Envases, empaques, embalajes ecológicos y biodegradables
     
     p.mb-4 En la división del packaging, se encuentran tres categorías de envases: 
 
@@ -49,12 +49,12 @@
                 i.fas.fa-quote-left 
               .col-8
                 h3.text-regular.text-bold Todo producto fabricado con materiales de diversa naturaleza que se utiliza para contener, proteger, manipular, distribuir y presentar mercancías, desde materias primas hasta artículos acabados, en cualquier fase de la cadena de fabricación, distribución y consumo
+              .col-2
+                i.fas.fa-quote-right
           .bloque-texto-d__autor
             .row
               .col-10.p-2
                 p Garcerant (s. f.)
-              .col-2
-                i.fas.fa-quote-right
       .col-lg-3
         img(src='@/assets/curso/tema2/img04.png')
 
@@ -63,7 +63,7 @@
     h4.mb-4 Empaques ecológicos y biodegradables
 
     p.mb-4 Según la definición de empaque del Centro Internacional de Negocios (s. f.), es la “presentación comercial de la mercancía, contribuyendo a la seguridad de ésta durante sus desplazamientos y lográndose vender, dándole una buena imagen visual y distinguiéndose de los productos de la competencia”.
-    p.mb-4 El empaque es la manera en que se presenta el producto en las tiendas para su venta. Está más enfocado al marketing y su principal objetivo es vender. A veces, el empaque suele ser el mismo envase, pero no siempre. También es conocido como empaque secundario. Actualmente, existen emprendimientos que elaboran sustitutos de bolsas plásticas y de otros tipos de empaques, para hacerlos ecológicos y biodegradables.
+    p.mb-4 El empaque es la manera en que se presenta el producto en las tiendas para su venta. Está más enfocado al #[i marketing] y su principal objetivo es vender. A veces, el empaque suele ser el mismo envase, pero no siempre. También es conocido como empaque secundario. Actualmente, existen emprendimientos que elaboran sustitutos de bolsas plásticas y de otros tipos de empaques, para hacerlos ecológicos y biodegradables.
 
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -73,7 +73,7 @@
               img(src='@/assets/curso/tema2/img05.svg')
             .col-9
               strong Ejemplos: 
-              p bioplásticos, usando como materia prima el almidón de maíz; talegas de algodón, bolsas reutilizables y mochilas; jabón de manos, lavaloza, cuyos ingredientes son derivados de plantas y minerales y pueden ser biodegradables. Además, algunos de estos productos cuentan con certificados de “producto vegano” o “libre de crueldad animal”, así como con procesos de fabricación de envases libres de parabenos.
+              p Bioplásticos, usando como materia prima el almidón de maíz; talegas de algodón, bolsas reutilizables y mochilas; jabón de manos, lavaloza, cuyos ingredientes son derivados de plantas y minerales y pueden ser biodegradables. Además, algunos de estos productos cuentan con certificados de “producto vegano” o “libre de crueldad animal”, así como con procesos de fabricación de envases libres de parabenos.
 
     h4.mb-4 Embalajes ecológicos y biodegradables
 
@@ -108,23 +108,23 @@
 
     separador
     #t_2_2.titulo-segundo
-      h2 2.2	Construcción  de marca o Branding
+      h2 2.2	Construcción de marca o #[i Branding]
     
     .row.justify-content-center.mb-4
       .col-lg-10
-        .bloque-texto-a.color-primario.p-2.p-md-5.mb-4
+        .bloque-texto-a.color-primario.p-2.p-md-4.mb-4
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Una marca no es solo el nombre, es el sello, el símbolo y el espíritu que identifica una empresa, o una combinación de todo lo anterior, por lo cual los consumidores distinguen la imagen de una marca, la validan y la admiten, en cuanto a su calidad, si pueden o no confiar en ella y en que es única. La marca es lo que distingue un producto o servicio del de la competencia.
+                p Una marca no es solo el nombre, es el sello, el símbolo y el espíritu que identifica una empresa, o una combinación de todo lo anterior, por lo cual los consumidores distinguen la imagen de una marca, la validan y la admiten, en cuanto a su calidad, si pueden o no confiar en ella y en que es única. #[strong La marca es lo que distingue un producto o servicio del de la competencia].
             .col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/tema2/img08.svg')
     
-    p.mb-4 Lograr el nivel de la marca y que esta sea reconocida en el mercado dependerá de cómo la gente la perciba y opine de ella, así como del respaldo económico y la eficiencia en la comunicación de la marca, que permitan sobrellevar, a lo largo de las épocas, las dificultades que se presenten tanto en lo económico, como en lo social, comercial, ecológico, cultural, de moda y en todos aquellos aspectos que surjan del manejo de la marca, y aquellos que la marca requiera, para mantenerse compitiendo dentro de su categoría o segmento y crear lealtad en los consumidores.
+    p.mb-4 Lograr el nivel de la marca y que esta sea reconocida en el mercado dependerá de cómo la gente la perciba y opine de ella, así como #[strong del respaldo económico y la eficiencia en la comunicación] de la marca, que permitan sobrellevar, a lo largo de las épocas, las dificultades que se presenten tanto en lo económico, como en lo social, comercial, ecológico, cultural, de moda y en todos aquellos aspectos que surjan del manejo de la marca, y aquellos que la marca requiera, para mantenerse compitiendo dentro de su categoría o segmento y crear lealtad en los consumidores.
     
     separador
     #t_2_3.titulo-segundo
-      h2 2.3	Construcción de marca ecológica o marca verde (Green Branding)
+      h2 2.3	Construcción de marca ecológica o marca verde (#[i Green Branding])
     
     .row.mb-4
       .col-lg-7
@@ -148,32 +148,32 @@
         span.text-bold d. 
         | Aumento de la imagen de la empresa o del emprendedor, la reputación y la estrategia comercial.
 
-    p.mb-4 Existen varios tipos de branding que las empresas pueden necesitar:
+    p.mb-4 Existen varios tipos de #[i branding] que las empresas pueden necesitar:
     
     .row.mb-4
       .col-lg-4
         figure.mb-4
           img(src='@/assets/curso/tema2/img09.svg')
-        p Branding de producto
+        p #[i Branding] de producto
       .col-lg-4
         figure.mb-4
           img(src='@/assets/curso/tema2/img10.svg')
-        p Branding corporativo
+        p #[i Branding] corporativo
       .col-lg-4
         figure.mb-4
           img(src='@/assets/curso/tema2/img11.svg')
-        p Branding de casa o de soporte
+        p #[i Branding] de casa o de soporte
 
     separador
     #t_2_4.titulo-segundo
       h2 2.4 Propiedad intelectual, patentes e invenciones 
     
-    p.mb-4 En Colombia existe el Régimen de la Propiedad intelectual, el cual permite la protección de la propiedad industrial y los derechos de autor y es importante que los emprendedores con grandes ideas de negocio protejan esas ideas y registren sus marcas, patentes, software y demás bienes que se consideran intangibles, además de realizar la verificación de que no infringen derechos de terceros.
+    p.mb-4 En Colombia existe el Régimen de la Propiedad intelectual, el cual permite la protección de la propiedad industrial y los derechos de autor y es importante que los emprendedores con grandes ideas de negocio protejan esas ideas y registren sus marcas, patentes, #[i software] y demás bienes que se consideran intangibles, además de realizar la verificación de que no infringen derechos de terceros.
     figure.mb-4
       img(src='@/assets/curso/tema2/img12.png')
     
     p.mb-4 La propiedad industrial hace referencia a la protección que se le otorga a las marcas, a las patentes o a los diseños industriales. Por otro lado, los derechos de autor protegen todas las obras que son el resultado del ingenio y del talento de las personas, materializadas de cualquier modo de forma original. Es decir, 
-      strong el derecho de autor protege pinturas, diseños artísticos, software, obras literarias, películas, fonogramas, interpretaciones, etc.
+      strong el derecho de autor protege pinturas, diseños artísticos, #[i software], obras literarias, películas, fonogramas, interpretaciones, etc.
     p.mb-4 En Colombia, la entidad para oficializar la propiedad industrial y en la que se necesita realizar un registro formal es la Superintendencia de Industria y Comercio (SIC). A diferencia de la propiedad industrial, los derechos de autor nacen con la creación y materialización de las obras y no es necesario que se registren ante la Dirección Nacional de Derechos de Autor.
 
     .row.justify-content-center.mb-4
@@ -183,7 +183,7 @@
             .col-lg-2
               img(src='@/assets/curso/tema2/img13.svg')
             .col-lg-8
-              p Una patente es la forma como se protegen las creaciones de un producto o de un procedimiento, siempre y cuando sean nuevas, tengan un nivel de ingenio y se puedan aplicar en la industria. El título de patente se otorga de manera temporal, es decir, que caduca porque tiene una fecha de inicio y una fecha de fin. Al final, la patente será de dominio público. También una patente es territorial, lo que quiere decir que los derechos conferidos por la patente se exigen sólo en el país en el cual se confirió.
+              p Una #[i patente] es la forma como se protegen las creaciones de un producto o de un procedimiento, siempre y cuando sean nuevas, tengan un nivel de ingenio y se puedan aplicar en la industria. El título de patente se otorga de manera temporal, es decir, que caduca porque tiene una fecha de inicio y una fecha de fin. Al final, la patente será de dominio público. También una patente es territorial, lo que quiere decir que los derechos conferidos por la patente se exigen sólo en el país en el cual se confirió.
     
     p.mb-4 Se identifican 3 requisitos de una patente:
     

@@ -22,7 +22,7 @@
           
     separador
     #t_3_1.titulo-segundo
-      h2 3.1 Design thinking
+      h2 3.1 #[i Design thinking]
     
     p.mb-4 La metodología design thinking, o pensamiento de diseño, es un conjunto de herramientas y acciones propuestas para dar solución a un problema determinado. Su característica principal radica en que hace énfasis en el diseño y en el usuario.
     p.mb-4 La metodología se desarrolla en 5 etapas o fases:
@@ -35,13 +35,13 @@
               img(src='@/assets/curso/tema3/img02.svg')
           .tarjeta.color-acento-contenido.p-3(x="11%" y="27%")
             .h5.mb-2 Comprender o empatizar:
-            p Es “ponerse en los zapatos” de los clientes, no solo a través del análisis de datos como la edad, el sexo o la ubicación, sino que se busca ahondar en la manera de pensar y actuar de los clientes. Los métodos más utilizados son: entrevistas personales, encuestas, focus group. 
+            p Es “ponerse en los zapatos” de los clientes, no solo a través del análisis de datos como la edad, el sexo o la ubicación, sino que se busca ahondar en la manera de pensar y actuar de los clientes. Los métodos más utilizados son: entrevistas personales, encuestas, #[i focus group]. 
           .tarjeta.color-acento-contenido.p-3(x="37%" y="25%")
             .h5.mb-2 Definir:
             p Es identificar un punto de acción a partir de las conclusiones sacadas de la fase 1.  Es decir, una vez se conoce que la persona tiene una necesidad a la hora de solucionar un problema, el reto es lograr encontrar la mejor solución.
           .tarjeta.color-acento-contenido.p-3(x="37%" y="73%")
             .h5.mb-2 Idear:
-            p Proceso de creación de ideas buscando las soluciones luego de haber definido el perfil de los clientes y de la identificación de sus problemas y necesidades. Puede ser a través de lluvia de ideas o “Brainstorming”.
+            p Proceso de creación de ideas buscando las soluciones luego de haber definido el perfil de los clientes y de la identificación de sus problemas y necesidades. Puede ser a través de lluvia de ideas o “#[i Brainstorming]”.
           .tarjeta.color-acento-contenido.p-3(x="65%" y="71%")
             .h5.mb-2 Prototipar:
             p Es crear una versión más pequeña del producto, empleando las ideas conseguidas de las fases anteriores. Es decir, convertir la idea o la solución a la que se ha llegado en un modelo digital o físico. No necesariamente debe ser un objeto, también puede ser un dibujo.
@@ -55,63 +55,81 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/tema3/img03.png')
-            .col-lg-8
+            .col-lg-9
               .bloque-texto-a__texto.p-4
                 strong Ejemplo 
                 p Totto: empresa colombiana de morrales escolares descubrió, gracias al contacto directo con sus clientes, que una de las principales preocupaciones de los padres eran los problemas de espalda de sus hijos al cargar pesados útiles escolares. A partir de ahí, sus creativos idearon un morral innovador que no pierde su forma, permite que el aire circule a través de sus tejidos y tienen correas de tipo ergonómico según el sexo de los niños.
             
     separador
     #t_3_2.titulo-segundo
-      h2 3.2 Business Model Canvas
+      h2 3.2 #[i Business Model Canvas]
     
-    p.mb-4 El Business Model Canvas (BMC, por sus siglas en inglés), o Modelo de Negocio Canvas, fue diseñado por Alexander Osterwalder e Yves Pigneur, y es una herramienta de gestión estratégica para definir y organizar el modelo de negocio de una empresa.
+    p.mb-4 El #[i Business Model Canvas] (BMC, por sus siglas en inglés), o Modelo de Negocio Canvas, fue diseñado por Alexander Osterwalder e Yves Pigneur, y es una herramienta de gestión estratégica para definir y organizar el modelo de negocio de una empresa.
     p.mb-4 El Modelo Canvas es la forma de establecer y presentar de manera sencilla un modelo de negocio, donde la propuesta de valor se puede explicar de forma breve y clara. Se divide el negocio en nueve (9) bloques que agrupan las características fundamentales de la empresa que se va a crear:
 
     .row.justify-content-center.mb-4
       .col-lg-10
-        ul.lista-ul--separador
-          li
-            p  
-              strong 1. Segmentos de mercado y clientes  
-              br
-              | a los que se dirige el producto o servicio.
-          li
-            p  
-              strong 2.	Propuesta de valor: 
-              br
-              | es eso que hace que su producto o servicio sea diferente del de la competencia.
+        ol.lista-ol--cuadro.lista-ol--separador
           li 
-            span.text-bold 3.	Canales de distribución del producto 
-          li
+            .lista-ol--cuadro__vineta
+              span 1
             p  
-              strong 4.	Relación con los clientes:  
+              strong Segmentos de mercado y clientes  
               br
-              | la comunicación y los medios de atención que se les brindará a los clientes, siempre directamente relacionados con lo que significa la marca.
-          li
+              | A los que se dirige el producto o servicio.
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
             p  
-              strong 5.	Ingresos:  
+              strong Propuesta de valor: 
               br
-              | debe haber un equilibrio entre el precio al que se quiere vender y el precio que está dispuesto a pagar el cliente por su producto o servicio. El negocio debe apuntar a la rentabilidad.
-          li
+              | Es eso que hace que su producto o servicio sea diferente del de la competencia.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3 
+            span.text-bold Canales de distribución del producto 
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
             p  
-              strong 6.	Recursos:  
+              strong Relación con los clientes:  
               br
-              | e refiere a los recursos financieros, recursos humanos y materiales para desarrollar y ejecutar las ideas que surjan del negocio.
-          li
+              | La comunicación y los medios de atención que se les brindará a los clientes, siempre directamente relacionados con lo que significa la marca.
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
             p  
-              strong 7.	Actividades primarias:  
+              strong Ingresos:  
               br
-              | son aquellas actividades necesarias para alcanzar la propuesta de valor que se ha determinado para el producto, desde las etapas de diseño y desarrollo, hasta la comercialización del producto o servicio.
-          li
+              | Debe haber un equilibrio entre el precio al que se quiere vender y el precio que está dispuesto a pagar el cliente por su producto o servicio. El negocio debe apuntar a la rentabilidad.
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
             p  
-              strong 8.	Socios estratégicos:  
+              strong Recursos:  
               br
-              | con los cuales se obtendrán los recursos y son importantes para impulsar el negocio.
-          li
+              | Se refiere a los recursos financieros, recursos humanos y materiales para desarrollar y ejecutar las ideas que surjan del negocio.
+          li 
+            .lista-ol--cuadro__vineta
+              span 7
             p  
-              strong 9.	Estructura de costos:  
+              strong Actividades primarias:  
               br
-              | definir los costos para cada actividad, ya sea para el desarrollo del producto, para actividades de marketing o para actividades de servicio al cliente. 
+              | Son aquellas actividades necesarias para alcanzar la propuesta de valor que se ha determinado para el producto, desde las etapas de diseño y desarrollo, hasta la comercialización del producto o servicio.
+          li 
+            .lista-ol--cuadro__vineta
+              span 8
+            p  
+              strong Socios estratégicos:  
+              br
+              | Con los cuales se obtendrán los recursos y son importantes para impulsar el negocio.
+          li 
+            .lista-ol--cuadro__vineta
+              span 9
+            p  
+              strong Estructura de costos:  
+              br
+              | Definir los costos para cada actividad, ya sea para el desarrollo del producto, para actividades de #[i marketing] o para actividades de servicio al cliente. 
     
     .row.justify-content-center.mb-4
       .col-lg-8.tabla.color-primario-25.p-4
