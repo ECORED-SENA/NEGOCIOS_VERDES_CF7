@@ -29,7 +29,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Diagnóstico de mercado
-        p.mb-4 Comprender las metodologías #[i Lean Startup], ciclo de 8 pasos, #[i Coolhunting], así como los conceptos de #[ i category manager] y los tipos de PMV.
+        p.mb-4 Comprender las metodologías #[i Lean Startup], ciclo de 8 pasos, #[i Coolhunting], así como los conceptos de #[i category manager] y los tipos de PMV.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

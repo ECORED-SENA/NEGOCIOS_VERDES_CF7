@@ -143,24 +143,26 @@
       h5 Tabla 1
       span Mezcla del mercadeo verde 
     
-    .tabla-b.color-acento-contenido.mb-5
-      .tabla-b__header
-        th.text-white.text-center Elemento
-        th.text-white.text-center Definición
+    .tabla-a.color-acento-botones.mb-5 
       table
         caption Nota. Tomada de Monteiro et al. (2015).
-        tr
-          th Producto verde
-          td Responde a necesidades y requerimientos ambientales. Una vez que las necesidades del cliente son consideradas necesarias para mejorar y desarrollar nuevos productos, ambientes más seguros y saludables, también son importantes y deben ser consideradas.
-        tr
-          th Precio verde
-          td Se refiere al precio especificado a la luz de las políticas de la empresa con respecto a las consideraciones ambientales impuestas por las normas e instrucciones de la empresa, o de sus iniciativas ecológicas.
-        tr
-          th Plaza (distribución) verde
-          td Se refiere a la distribución de productos ecológicos que son adecuados para los consumidores, en términos de facilitar la entrega y garantizar procedimientos de reciclaje, que se realizan dentro de las condiciones y requerimientos ambientales.
-        tr
-          th Promoción verde
-          td Se refiere al suministro de información real acerca de los productos, de una manera que no perjudique los intereses de los consumidores. 
+        thead
+          tr
+            th.text-white.text-center Puntos clave
+            th.text-white.text-center Concepto
+        tbody
+          tr
+            td.text-bold.text-center Producto verde
+            td Responde a necesidades y requerimientos ambientales. Una vez que las necesidades del cliente son consideradas necesarias para mejorar y desarrollar nuevos productos, ambientes más seguros y saludables, también son importantes y deben ser consideradas.
+          tr
+            td.text-bold.text-center Precio verde
+            td Se refiere al precio especificado a la luz de las políticas de la empresa con respecto a las consideraciones ambientales impuestas por las normas e instrucciones de la empresa, o de sus iniciativas ecológicas.
+          tr
+            td.text-bold.text-center Plaza (distribución) verde
+            td Se refiere a la distribución de productos ecológicos que son adecuados para los consumidores, en términos de facilitar la entrega y garantizar procedimientos de reciclaje, que se realizan dentro de las condiciones y requerimientos ambientales.
+          tr
+            td.text-bold.text-center Promoción verde
+            td Se refiere al suministro de información real acerca de los productos, de una manera que no perjudique los intereses de los consumidores. 
 
     p.mb-4 Profundicemos en cada una de las estrategias de mercado verde:
 
@@ -236,27 +238,29 @@
       h5 Tabla 2
       span Los 5 puntos clave del mercadeo verde 
     
-    .tabla-b.color-acento-contenido.mb-5
-      .tabla-b__header
-        th.text-white.text-center Puntos clave
-        th.text-white.text-center Concepto
+    .tabla-a.color-acento-botones.mb-5 
       table
         caption Nota. Tomada de Monteiro et al. (2015).
-        tr
-          th Intuitivo
-          td Hacer mejores alternativas, accesibles y fáciles de interpretar. Esto significa hacer que los productos o servicios verdes parezcan normales. Apreciar la vida de forma sostenible parece un camino muy difícil y arduo para la mayoría de las personas. Las empresas tienen que hacer este proceso más intuitivo.
-        tr
-          th Integrativo
-          td Asociar el comercio detallista a la tecnología, la sociedad y la ecología. La idea principal de este punto radica en la sostenibilidad, a través de la combinación de desarrollo económico con desarrollo social y ambiental.
-        tr
-          th Innovador
-          td Nuevos productos creativos que aporten nuevos estilos de vida. Mucha gente está diciendo que, en el futuro, la innovación ambiental y el espíritu empresarial serán como la información y la tecnología espacial a lo largo de los últimos veinte años.
-        tr
-          th Invitador
-          td La elección positiva no es una obligación. Un producto considerado verde es, en parte, un desafío de diseño. Un producto verde es a menudo mejor, más eficiente, durable, saludable, accesible, y así sucesivamente. Por lo tanto, las organizaciones deben lidiar con la cultura y los nuevos estilos de vida.
-        tr
-          th Informativo
-          td La falta de información afecta el comportamiento de las personas. Las bases para el desarrollo del #[i marketing] verde residen en la educación y la participación.
+        thead
+          tr
+            th.text-white.text-center Puntos clave
+            th.text-white.text-center Concepto
+        tbody
+          tr
+            td.text-bold.text-center Intuitivo
+            td Hacer mejores alternativas, accesibles y fáciles de interpretar. Esto significa hacer que los productos o servicios verdes parezcan normales. Apreciar la vida de forma sostenible parece un camino muy difícil y arduo para la mayoría de las personas. Las empresas tienen que hacer este proceso más intuitivo.
+          tr
+            td.text-bold.text-center Integrativo
+            td Asociar el comercio detallista a la tecnología, la sociedad y la ecología. La idea principal de este punto radica en la sostenibilidad, a través de la combinación de desarrollo económico con desarrollo social y ambiental.
+          tr
+            td.text-bold.text-center Innovador
+            td Nuevos productos creativos que aporten nuevos estilos de vida. Mucha gente está diciendo que, en el futuro, la innovación ambiental y el espíritu empresarial serán como la información y la tecnología espacial a lo largo de los últimos veinte años.
+          tr
+            td.text-bold.text-center Invitador
+            td La elección positiva no es una obligación. Un producto considerado verde es, en parte, un desafío de diseño. Un producto verde es a menudo mejor, más eficiente, durable, saludable, accesible, y así sucesivamente. Por lo tanto, las organizaciones deben lidiar con la cultura y los nuevos estilos de vida.
+          tr
+            td.text-bold.text-center Informativo
+            td La falta de información afecta el comportamiento de las personas. Las bases para el desarrollo del #[i marketing] verde residen en la educación y la participación.
 
     separador
     #t_1_5.titulo-segundo
