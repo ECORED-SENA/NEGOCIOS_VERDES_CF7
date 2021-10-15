@@ -137,7 +137,7 @@
           h5 Figura 2
           span Modelo Canvas
         figura
-          img(src='@/assets/curso/tema3/img04.png')
+          img(src='@/assets/curso/tema3/img04.svg')
           figcaption Nota. Imagen tomada de Rosana Rosas Modelo Canvas (s. f.).
 
 </template>

@@ -410,6 +410,21 @@
       .tarjeta.color-acento-botones.p-4(titulo="Crowdfunding")
         h4 Crowdfunding
         p.mb-4 Esta prueba consiste en buscar inversión para un proyecto a través de Internet. Las personas que demuestran interés en los proyectos deciden la cantidad de dinero que desean invertir. Se requiere utilizar una plataforma de financiación colaborativa y crear un producto visual y descriptivo. Si la gente lo acepta y financia el proyecto, con eso se tiene una idea de su nivel de aceptación. El objetivo es verificar que hay un mercado para ese producto que está dispuesto a pagar por él y, además, busca validar el precio del producto.
+    
+    p.mb-4 En resumen, se presentaron algunos ejemplos de diferentes pruebas para validar un PMV que se pueden usar para una idea. Si aún no hay seguridad de que el PMV pueda funcionar, lo que se debe hacer es comprender el propósito que desea cumplir el producto. En otras palabras, el PMV sirve para dos cosas:
+    .row.justify-content-center.mb-4
+      .col-lg-3.tarjeta.color-primario--borde.p-4.mb-2
+        h2 01
+        p Para crear nuevas ideas
+      .col-lg-3.tarjeta.color-primario--borde.p-4.mb-2
+        h2 02
+        p Para probar una hipótesis
+    
+    p.mb-4 No existe una prueba mejor que otra, solo diferentes, de acuerdo con el propósito de la idea del negocio. Sin embargo, si es para generar nuevas ideas de negocio, es recomendable la prueba #[strong conserjería], la cual permite interactuar de manera individual con los clientes. Esto ofrece un mejor alcance para entender las necesidades de los clientes y encontrar mejores formas de atenderlas, lo que conlleva a tener un punto de vista claro del producto.
+    p.mb-4 Mientras que si ya se tiene algo claro de esa idea y se quiere probar la hipótesis, #[strong los test] restantes se adaptarían mejor a esas necesidades. Por ejemplo, la página destino/de aterrizaje (#[i landing page]), #[strong el video explicativo], o 
+      strong #[i el crowdfunding] 
+      | permiten evaluar la reacción del mercado sobre el enfoque del producto. Y si lo que se desea es obtener acotaciones de la gente sobre el funcionamiento del producto, la prueba del #[strog Mago de Oz] podría adaptarse al producto.
+
 
     separador
     #t_1_6.titulo-segundo
