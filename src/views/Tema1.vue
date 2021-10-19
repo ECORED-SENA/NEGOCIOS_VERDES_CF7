@@ -422,8 +422,8 @@
     
     p.mb-4 No existe una prueba mejor que otra, solo diferentes, de acuerdo con el propósito de la idea del negocio. Sin embargo, si es para generar nuevas ideas de negocio, es recomendable la prueba #[strong conserjería], la cual permite interactuar de manera individual con los clientes. Esto ofrece un mejor alcance para entender las necesidades de los clientes y encontrar mejores formas de atenderlas, lo que conlleva a tener un punto de vista claro del producto.
     p.mb-4 Mientras que si ya se tiene algo claro de esa idea y se quiere probar la hipótesis, #[strong los test] restantes se adaptarían mejor a esas necesidades. Por ejemplo, la página destino/de aterrizaje (#[i landing page]), #[strong el video explicativo], o 
-      strong #[i el crowdfunding] 
-      | permiten evaluar la reacción del mercado sobre el enfoque del producto. Y si lo que se desea es obtener acotaciones de la gente sobre el funcionamiento del producto, la prueba del #[strog Mago de Oz] podría adaptarse al producto.
+      strong #[i el crowdfunding ] 
+      | permiten evaluar la reacción del mercado sobre el enfoque del producto. Y si lo que se desea es obtener acotaciones de la gente sobre el funcionamiento del producto, la prueba del #[strong Mago de Oz] podría adaptarse al producto.
 
 
     separador
