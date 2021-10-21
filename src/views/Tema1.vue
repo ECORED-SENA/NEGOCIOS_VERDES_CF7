@@ -277,7 +277,7 @@
             .col-10
               p El PMV no es un prototipo, un prototipo es representar de forma visual el producto que se desea lanzar, mientras que un PMV es un producto que tiene las funciones mínimas para ser lanzado al mercado, buscando la interacción y opinión de los #[i early adopters], o primeros clientes, para aprender de su #[i feedback].
 
-    p.mb-4 Muchas veces se asocia al PMV como una versión del producto que tiene características restringidas, limitadas que se percibe como algo que es “barato” de producir. Sin embargo, en realidad, un PMV puede costar mucho dinero, dependiendo de la propuesta de valor que se quiera representar al momento de enseñar a los clientes.
+    p.mb-4 Muchas veces se asocia al PMV como una versión del producto que tiene características restringidas, limitadas que se percibe como algo que es “#[strong barato]” de producir. Sin embargo, en realidad, un PMV puede costar mucho dinero, dependiendo de la propuesta de valor que se quiera representar al momento de enseñar a los clientes.
     p.mb-4 Es importante que al crear un PMV se consideren cuatro (4) aspectos fundamentales para que pueda aportar valor a un cliente y que reúna las siguientes características principales:
 
     .row.justify-content-center.mb-4
